@@ -18,9 +18,8 @@ this.angle = angle || random(0, 360);
 this.scale = scale || 0.1;
 this.place = place;
 this.speed = speed;
-
-        this.figure = figure;
-    } 这个函数定义花的颜色，255位纯红
+this.figure = figure;
+} 这个函数定义花的颜色，255位纯红
 
 bloom: {
 num: 700,
